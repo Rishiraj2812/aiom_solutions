@@ -39,11 +39,11 @@ const Payment = () => {
       
         <StyledContainer className='text-white m-4'>Choose Your Plan</StyledContainer></h1>
 
-      <div className="grid lg:grid-cols-2  mx-auto  lg:mx-80 my-5 justify-center items-center">
+      <div className="grid lg:grid-cols-2  mx-auto  my-5 justify-center items-center">
         {/* Basic Plan */}
 
 
-                    <div className=" bg-stone-100 border border-gray-300 text-stone-700 rounded-md m-4 w-80 ">
+                    <div className=" bg-stone-100 border border-gray-300 text-stone-700 mx-auto rounded-md m-4 w-80 ">
                        
                           <div className=" text-2xl font-bold flex items-center justify-center mb-6 bg-gray-200 p-2 w-full h-16 rounded-md ">
                              <StyledContainer>
@@ -112,7 +112,7 @@ const Payment = () => {
                     </div>
 
 
-                    <div className=" bg-stone-100 border border-gray-300 text-stone-700 rounded-md m-4 w-80 ">
+                    <div className=" bg-stone-100 border border-gray-300 mx-auto text-stone-700 rounded-md m-4 w-80 ">
                        
                           <div className=" text-2xl font-bold flex items-center justify-center mb-6 bg-gray-200 p-2 w-full h-16 rounded-md ">
                              <StyledContainer>
