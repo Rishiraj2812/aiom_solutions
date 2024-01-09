@@ -88,8 +88,8 @@ const Payment = () => {
                               </StyledContainer>
                                 
                               </span>
-                              <span className="price-membership-card-alt-price-monthly price-membership-card-alt-trial block mt-2 text-sm text-gray-600">
-                              $395.00<sup>/mo*</sup> after 7 days
+                              <span className="price-membership-card-alt-price-monthly price-membership-card-alt-trial block mt-2 text-lg text-gray-600">
+                              $395.00<sup>/mo*</sup> after 12 days
                               </span>
                             
                           </div>
@@ -154,8 +154,8 @@ const Payment = () => {
                               </StyledContainer>
                                 
                               </span>
-                              <span className="price-membership-card-alt-price-monthly price-membership-card-alt-trial block mt-2 text-sm text-gray-600">
-                                $595.00<sup>/mo*</sup> after 7 days
+                              <span className="price-membership-card-alt-price-monthly price-membership-card-alt-trial block mt-2 text-lg text-gray-600">
+                                $595.00<sup>/mo*</sup> after 12 days
                               </span>
                             
                           </div>

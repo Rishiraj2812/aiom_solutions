@@ -7,6 +7,8 @@ import Header from './components/Header.jsx';
 import Contact from './components/Contact.jsx';
 import About from './components/About.jsx'
 import Footer from './components/Footer.jsx';
+import Navbar  from './components/Navbar.jsx';
+// import { DropdownProvider } from './DropdownContext';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
