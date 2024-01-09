@@ -1,7 +1,4 @@
-import React,{useState, useRef} from 'react'
-import { useSpeechSynthesis } from 'react-speech-kit';
-import HoverVideo from './HoverVideo';
-
+import React from 'react'
 const Contact = () => {
   
   
