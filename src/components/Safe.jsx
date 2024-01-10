@@ -7,12 +7,12 @@ const StyledContainer = styled.div`
 `;
 
     const images = [
-      { id: 1, src: 'src/images/1.png', alt: 'Image 1', text: 'Enhance customer service excellence' },
-      { id: 2, src: 'src/images/2.png', alt: 'Image 2', text: 'Product policy Complaince ' },
-      { id: 3, src: 'src/images/3.png', alt: 'Image 3', text: 'Negative feedback Removal ' },
-      { id: 4, src: 'src/images/4.png', alt: 'Image 4', text: 'Orders with defect rate ' },
-      { id: 5, src: 'src/images/5.png', alt: 'Image 5', text: 'Manage Account Health ' },
-      { id: 6, src: 'src/images/6.png', alt: 'Image 6', text: 'Shipping Performance ' },
+      { id: 1, src: '/images/1.png', alt: 'Image 1', text: 'Enhance customer service excellence' },
+      { id: 2, src: '/images/2.png', alt: 'Image 2', text: 'Product policy Complaince ' },
+      { id: 3, src: '/images/3.png', alt: 'Image 3', text: 'Negative feedback Removal ' },
+      { id: 4, src: '/images/4.png', alt: 'Image 4', text: 'Orders with defect rate ' },
+      { id: 5, src: '/images/5.png', alt: 'Image 5', text: 'Manage Account Health ' },
+      { id: 6, src: '/images/6.png', alt: 'Image 6', text: 'Shipping Performance ' },
     //   { id: 7, src: 'src/images/1.png', alt: 'Image 7', text: 'Description 7' },
     //   { id: 8, src: 'image8.jpg', alt: 'Image 8', text: 'Description 8' },
     ];
