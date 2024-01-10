@@ -46,7 +46,7 @@ const Header = () => {
           className="text-xl font-bold ml-6 lg:ml-28 items-center text-gray-800 flex transition duration-300 ease-in-out transform hover:scale-105"
         >
           <button className='flex items-center' onClick={handleButtonClick}>
-            <img className='h-16 w-28 md:h-20 md:w-40' src="/src/images/logo.png" alt="logo" />
+            <img className='h-16 w-28 md:h-20 md:w-40' src="/images/logo.png" alt="logo" />
           </button>
         </div>
 
