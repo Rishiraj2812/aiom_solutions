@@ -18,7 +18,8 @@ const Start = () => {
                 <div className="md:w-1/2 lg:w-1/4 p-4 md:m-1 transform transition-transform duration-500 ease-in-out hover:scale-105">
                     <div className="bg-transparent mx-auto rounded-lg shadow-md overflow-hidden text-center h-50 w-64">
                         <img
-                            src='https://img.freepik.com/free-photo/finger-pushing-virtual-button_1134-264.jpg?w=996&t=st=1703594369~exp=1703594969~hmac=ce98b6f83b6c786def5e2b679d0bc5ef57a5af148099244d07b9e53fa78782fe'
+                            src='/images/start/1.jpeg'
+                            // src='https://img.freepik.com/free-photo/finger-pushing-virtual-button_1134-264.jpg?w=996&t=st=1703594369~exp=1703594969~hmac=ce98b6f83b6c786def5e2b679d0bc5ef57a5af148099244d07b9e53fa78782fe'
                              alt="Service Image"
                             className="w-full h-40 mx-auto object-cover"
                         />
@@ -30,7 +31,8 @@ const Start = () => {
                 <div className=" md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
                     <div className="bg-transparent mx-auto rounded-lg shadow-md overflow-hidden text-center h-50 w-64">
                         <img
-                            src='https://img.freepik.com/free-photo/businessperson-s-hand-marking-check-box-with-red-marker-screen_23-2147838609.jpg?w=826&t=st=1703594498~exp=1703595098~hmac=f60dae72b897fd537e163f625015a41543bbbe70bf95872e427886e79fd40c2c'
+                            src='/images/start/2.jpeg'
+                            // src='https://img.freepik.com/free-photo/businessperson-s-hand-marking-check-box-with-red-marker-screen_23-2147838609.jpg?w=826&t=st=1703594498~exp=1703595098~hmac=f60dae72b897fd537e163f625015a41543bbbe70bf95872e427886e79fd40c2c'
                              alt="Service Image"
                             className="w-full h-40 mx-auto object-cover"
                         />
@@ -44,7 +46,8 @@ const Start = () => {
                 <div className=" md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
                     <div className="bg-transparent mx-auto rounded-lg shadow-md overflow-hidden text-center h-50 w-64">
                         <img
-                            src='https://img.freepik.com/free-photo/medium-shot-woman-working-laptop_23-2149300643.jpg?w=996&t=st=1703594576~exp=1703595176~hmac=572581fbdf75846dfb81c5dc008088447f97dc5642aa086f0f6c6918bc7b26b2'
+                            src='/images/start/3.jpeg'
+                            // src='https://img.freepik.com/free-photo/medium-shot-woman-working-laptop_23-2149300643.jpg?w=996&t=st=1703594576~exp=1703595176~hmac=572581fbdf75846dfb81c5dc008088447f97dc5642aa086f0f6c6918bc7b26b2'
                              alt="Service Image"
                             className="w-full h-40 object-cover"
                         />

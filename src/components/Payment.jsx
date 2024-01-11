@@ -124,12 +124,12 @@ const Payment = () => {
                           <ul className="list-none list-inside">
                             {/* <span>&#10003;</span> */}
                             <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Suspension or ASIN appeal not included</strong> </li>
-                            <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>8 Hours/Day</strong> </li>
+                            <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>7 to 8 Hours/Day</strong> </li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Product Listing Service</strong> </li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Product Description Writing</strong> </li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Product Image Optimisation</strong></li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Enhanced Brand Content(EBC)</strong></li>
-                              <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>PPC Set up Only</strong> </li>
+                              <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>PPC Management</strong> </li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Returns Processing</strong> </li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Customer Service</strong> </li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Discount Listing Services</strong> </li>

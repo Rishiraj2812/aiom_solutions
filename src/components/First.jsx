@@ -26,7 +26,7 @@ const First = () => {
                 <div className="flex">Low Cost Virtual Staff</div>
               </li>
               <li className="flex items-center">
-                <div className="bg-stone-200 h-5 w-5 rounded-full flex items-center justify-center mr-3">
+                <div className="bg-stone-200 h-5 w-9 rounded-full flex items-center justify-center mr-3">
                   <i className="custom-icon fas fa-check"></i>
                 </div>
                 <div className="flex">Focus on Growing the Business, Let Us take care of the admin.</div>

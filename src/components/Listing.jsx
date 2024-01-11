@@ -59,7 +59,8 @@ const Listing = () => {
                 {/* Right side with image */}
                 <div className="md:w-1/2">
                   <img
-                     src="https://img.freepik.com/free-photo/business-commercial-corporate-development-concept_53876-124899.jpg?w=740&t=st=1703529365~exp=1703529965~hmac=3e558655dc267d8e2d6506443a308f764377f148d0d288f4e9831e9a29a6c802"
+                    //  src="https://img.freepik.com/free-photo/business-commercial-corporate-development-concept_53876-124899.jpg?w=740&t=st=1703529365~exp=1703529965~hmac=3e558655dc267d8e2d6506443a308f764377f148d0d288f4e9831e9a29a6c802"
+                    src='/images/listing/3.jpeg'
                     alt="Card Image"
                     className="mx-auto p-20 max-w-full h-auto "
                   />
@@ -74,7 +75,8 @@ const Listing = () => {
     <div className="md:w-1/2">
       <img
 
-      src='https://img.freepik.com/free-photo/medium-shot-specialized-photographer-working-studio_23-2150247206.jpg?w=996&t=st=1703529579~exp=1703530179~hmac=eb099ebbe33177f8a92daf03b238256d90e638d72fd6ff1094e2eb165b50740a'
+        src='/images/listing/4.jpeg'      
+        // src='https://img.freepik.com/free-photo/medium-shot-specialized-photographer-working-studio_23-2150247206.jpg?w=996&t=st=1703529579~exp=1703530179~hmac=eb099ebbe33177f8a92daf03b238256d90e638d72fd6ff1094e2eb165b50740a'
           // Use the prop for the image source
         alt="Card Image"
         className="mx-auto p-16 max-w-full h-auto"
@@ -100,7 +102,8 @@ const Listing = () => {
                 {/* Right side with image */}
                 <div className="md:w-1/2">
                   <img
-                  src='https://img.freepik.com/free-photo/cropped-image-woman-inputting-card-information-key-phone-laptop-while-shopping-online_1423-68.jpg?w=996&t=st=1703529662~exp=1703530262~hmac=4023ac4d8fde6723518f4278751e4c9b235bfa421c829f3434a5699167ea105a'
+                  src='/images/listing/5.jpeg'
+                  // src='https://img.freepik.com/free-photo/cropped-image-woman-inputting-card-information-key-phone-laptop-while-shopping-online_1423-68.jpg?w=996&t=st=1703529662~exp=1703530262~hmac=4023ac4d8fde6723518f4278751e4c9b235bfa421c829f3434a5699167ea105a'
                     // Use the prop for the image source
                     alt="Card Image"
                     className="mx-auto p-16 max-w-full h-auto "
