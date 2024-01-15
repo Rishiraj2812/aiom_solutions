@@ -12,6 +12,20 @@
     @apply w-[100%];
   }
 }
+
+ul.custom-list {
+  list-style-type: none; /* Remove default list-style-type */
+  padding-left: 1.5rem; /* Add some left padding for the bullets */
+}
+
+ul.custom-list li::before {
+  content: "•"; /* Unicode character for a bullet (you can replace it with other characters) */
+  color: #475569; /* Custom color */
+  font-size: 4rem; /* Custom size */
+  display: inline-block;
+  margin-right: 0.5rem; /* Adjust spacing between bullet and text */
+}
+
 .background-container {
   background-image: url('https://images.pexels.com/photos/7794409/pexels-photo-7794409.jpeg');
   background-size: cover;

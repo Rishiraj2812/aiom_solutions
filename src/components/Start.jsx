@@ -15,7 +15,7 @@ const Start = () => {
 
             <div className='md:flex md:flex-wrap  justify-center'>
 
-                <div className="md:w-1/2 lg:w-1/4 p-4 md:m-1 transform transition-transform duration-500 ease-in-out hover:scale-105">
+                <div className="md:w-1/2 xl:w-1/4 p-4 md:m-1 transform transition-transform duration-500 ease-in-out hover:scale-105">
                     <div className="bg-transparent mx-auto rounded-lg shadow-md overflow-hidden text-center h-50 w-64">
                         <img
                             src='/images/start/1.jpeg'
@@ -28,7 +28,7 @@ const Start = () => {
                     </div>
                 </div>
 
-                <div className=" md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
+                <div className=" md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
                     <div className="bg-transparent mx-auto rounded-lg shadow-md overflow-hidden text-center h-50 w-64">
                         <img
                             src='/images/start/2.jpeg'
@@ -43,7 +43,7 @@ const Start = () => {
                 </div>
 
 
-                <div className=" md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
+                <div className=" md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
                     <div className="bg-transparent mx-auto rounded-lg shadow-md overflow-hidden text-center h-50 w-64">
                         <img
                             src='/images/start/3.jpeg'

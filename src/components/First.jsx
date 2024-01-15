@@ -18,19 +18,38 @@ const First = () => {
             <div className="text-center text-stone-200">
               <h3 className="custom-title font-bold">Save Time and Delegate Your Repetitive Tasks</h3>
             </div>
-            <ul className="custom-checklist space-y-4">
-              <li className="flex items-center mt-10">
-                <div className="bg-stone-200 h-5 w-5 rounded-full flex items-center justify-center mr-3">
+            <ul className="custom-checklist space-y-4 w-full h-fit">
+              <li className="mt-10">
+                {/* <div className="bg-stone-200 h-5 w-5 rounded-full flex items-center justify-center mr-3">
                   <i className="custom-icon fas fa-check"></i>
                 </div>
-                <div className="flex">Low Cost Virtual Staff</div>
+                <div className="flex">Low Cost Virtual Staff</div> */}
+                  <div className='flex w-full h-10'>
+                    <div className='w=1/5 ' style={{ fontSize: '80px' }}>
+                        <strong>&#8226;</strong>
+                    </div>
+                    <div className='w= 4/5 mt-11 ml-2'>
+                        Low Cost Virtual Staff
+                    </div>
+                  </div>
               </li>
-              <li className="flex items-center">
+              <li className="">
+                  <div className=' flex w-full h-fit'>
+                    <div className='w=1/5 ' style={{ fontSize: '80px' }}>
+                        <strong>&#8226;</strong>
+                    </div>
+                    <div className='w= 4/5 mt-11 ml-2'>
+                    Focus on Growing the Business, Let Us take care of the admin.
+                    </div>
+                  </div>
+              </li>
+              
+              {/* <li className="flex items-center">
                 <div className="bg-stone-200 h-5 w-8  md:h-5 md:w-5 rounded-full flex items-center justify-center mr-3">
                   <i className="custom-icon fas fa-check"></i>
                 </div>
                 <div className="flex">Focus on Growing the Business, Let Us take care of the admin.</div>
-              </li>
+              </li> */}
             </ul>
             <div>
               <button

@@ -16,7 +16,7 @@ const ServiceOffer = () => {
      
 
         <div className="flex flex-wrap justify-center">
-            <div className="w-full md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
+            <div className="w-full md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
               <div className="bg-transparent mx-auto rounded-lg shadow-md overflow-hidden text-center h-50 w-64">
                   <img
                         src='/images/service/1.jpeg'
@@ -31,7 +31,7 @@ const ServiceOffer = () => {
           </div>
 
             {/* <!-- Service Card 2 --> */}
-            <div className="w-full md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
+            <div className="w-full md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
               <div className="bg-transparent mx-auto rounded-lg shadow-md text-center overflow-hidden h-50 w-64">
                   <img
                          src='/images/service/2.jpeg'
@@ -46,7 +46,7 @@ const ServiceOffer = () => {
           </div>
             
 
-          <div className="w-full md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
+          <div className="w-full md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
               <div className="bg-transparent mx-auto rounded-lg shadow-md text-center overflow-hidden h-50 w-64">
                   <img
                          src='/images/service/3.jpeg'
@@ -60,7 +60,7 @@ const ServiceOffer = () => {
             
           </div>
 
-          <div className="w-full md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
+          <div className="w-full md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
               <div className="bg-transparent mx-auto rounded-lg shadow-md text-center overflow-hidden h-50 w-64">
               <img
                 src='/images/service/4.jpeg'
@@ -73,7 +73,7 @@ const ServiceOffer = () => {
           </div>
 
            
-          <div className="w-full md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
+          <div className="w-full md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
               <div className="bg-transparent mx-auto rounded-lg shadow-md text-center overflow-hidden h-50 w-64">
               <img
                src="https://img.freepik.com/free-photo/female-cinematographer-editing-video-montage-post-production-studio-office-improving-footage-quality-creative-software-artist-designer-working-movie-film-filmmaking-industry_482257-63649.jpg?w=1060&t=st=1703182541~exp=1703183141~hmac=31fe2678ebacc46e220392e6d8e09578e565be9d28e75a05e102b8f320813d6a"
@@ -85,7 +85,7 @@ const ServiceOffer = () => {
                  
           </div>
 
-          <div className="w-full md:w-1/2 lg:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
+          <div className="w-full md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
               <div className="bg-transparent mx-auto rounded-lg shadow-md text-center overflow-hidden h-50 w-64">
               <img
                src='/images/service/6.jpeg' 
