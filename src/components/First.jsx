@@ -12,7 +12,7 @@ const First = () => {
 
   return (
     <div>
-      <div className="bg-stone-700 dark:text-stone-200 p-10">
+      <div className="bg-stone-700 dark:text-stone-200 p-10 z-0">
         <div className="container mx-auto mt-40 md:mt-0 flex flex-col md:flex-row justify-between items-center">
           <div className="w-full md:w-1/2 mb-8 md:pt-28 md:mb-0">
             <div className="text-center text-stone-200">

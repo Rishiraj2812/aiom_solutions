@@ -14,9 +14,8 @@ const Footer = () => {
           />
         </div>
 
-        {/* What Company Does */}
         <p className="mb-6 md:w-1/2 md:px-4">
-        Welcome to AIO Solutions – a trailblazer in digital innovation and strategic solutions.
+        Welcome to AIOM Solutions – a trailblazer in digital innovation and strategic solutions.
          We specialize in providing comprehensive services to propel businesses into a new era of success.
           Our seasoned team of professionals is dedicated to delivering excellence across various domains,
            ensuring your brand not only thrives but leads in the digital landscape.

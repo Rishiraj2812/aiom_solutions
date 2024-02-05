@@ -15,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
           <Router>
             <Header/>
+            {/* <Navbar/> */}
             <Routes>
               <Route path='/' Component={App}/>
               <Route path='/contact' Component={Contact}/>

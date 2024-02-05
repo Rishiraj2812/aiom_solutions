@@ -52,27 +52,55 @@ const Header = () => {
 
         <nav id="nav" className="flex space-x-4 mr-12 lg:mr-40">
           {/* Visible on all screens */}
-          <div ref={dropdownRef} className="sm:hidden">
+          <div ref={dropdownRef} className="sm:hidden relative">
             <button
               onClick={toggleDropdown}
-              className="text-md font-semibold nav relative inline-block hover:text-blue-800 text-black px-3 py-2 transition duration-300 ease-in-out transform hover:scale-105"
+              id="dropdownDefaultButton"
+              className="text-white bg-blue-700 hover:bg-blue-800 nav relative focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Menu
+              <svg
+                className={`w-2.5 h-2.5 ms-3 ${dropdownVisible ? 'transform rotate-180' : ''}`}
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4"/>
+              </svg>
             </button>
+            {/* Dropdown menu */}
             {dropdownVisible && (
-              <div>
-                <Link
-                  to="/about"
-                  className="block text-md font-semibold nav relative hover:text-blue-800 text-black px-3 py-2 transition duration-300 ease-in-out transform hover:scale-105"
-                >
-                  About Us
-                </Link>
-                <Link
-                  to="/contact"
-                  className="block text-md font-semibold nav relative hover:text-blue-800 text-black px-3 py-2 transition duration-300 ease-in-out transform hover:scale-105"
-                >
-                  Contact Us
-                </Link>
+              <div
+                id="dropdown"
+                className="absolute z-10 top-full left-0 mt-2 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+              >
+                <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                  <li>
+                    <Link
+                      to="/"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/about"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      About Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/contact"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      Contact Us
+                    </Link>
+                  </li>
+                </ul>
               </div>
             )}
           </div>
@@ -80,13 +108,13 @@ const Header = () => {
           {/* Hidden on small screens */}
           <Link
             to="/"
-            className="hidden sm:inline text-md font-semibold nav relative inline-block hover:text-blue-800 text-black px-3 py-2 transition duration-300 ease-in-out transform hover:scale-105"
+            className="hidden sm:inline text-md font-semibold nav relative hover:text-blue-800 text-black px-3 py-2 transition duration-300 ease-in-out transform hover:scale-105"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="hidden sm:inline text-md font-semibold nav relative inline-block hover:text-blue-800 text-black px-3 py-2 transition duration-300 ease-in-out transform hover:scale-105"
+            className="hidden sm:inline text-md font-semibold nav relative hover:text-blue-800 text-black px-3 py-2 transition duration-300 ease-in-out transform hover:scale-105"
           >
             About Us
           </Link>
