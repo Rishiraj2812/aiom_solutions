@@ -2,9 +2,9 @@ import React from 'react'
 
 const ServiceOffer = () => {
   return (
-    <div>
-      <div className='dark:bg-stone-700 dark:text-stone-300'>
-        <div className="container pt-10">
+    <div className=''>
+      <div className='dark:bg-stone-700 dark:text-stone-300 '>
+        <div className="container pt-10 items-center text-center mx-auto">
             <div className="md:flex flex-col items-center">
                 <h2 className="text-3xl text-center font-bold mb-8">SERVICES WE OFFER</h2>
                 <p className="text-center text-lg">Help us grow your brand on AMZ. We let you focus on the important tasks of your business, while our VAs manage the administrative and time-consuming ones.</p>
@@ -12,9 +12,6 @@ const ServiceOffer = () => {
         </div>  
 
       <div className="container mx-auto  md:pl-20 md:pr-20">
-
-     
-
         <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-1/2 xl:w-1/4 p-4 transform transition-transform duration-500 ease-in-out hover:scale-105">
               <div className="bg-transparent mx-auto rounded-lg shadow-md overflow-hidden text-center h-50 w-64">
