@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const About = () => {
+  useEffect(()=>{
+    window.scroll(0, 0)
+  }, [])
   return (
     <div>
       {/* Hero Section */}

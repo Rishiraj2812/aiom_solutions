@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 const Contact = () => {
   
+  useEffect(()=>{
+    window.scroll(0, 0)
+  }, [])
   
   return (
     <div className="container mx-auto p-8 bg-gray-100 mt-20">

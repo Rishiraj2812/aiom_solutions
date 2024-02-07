@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Contact from './Contact';
 import { useNavigate } from 'react-router-dom';
 
@@ -9,6 +9,10 @@ const First = () => {
     // Change the route to '/contact'
     navigate('/contact');
   };
+
+  useEffect(()=>{
+    window.scroll(0, 0)
+  }, [])
 
   return (
     <div>
