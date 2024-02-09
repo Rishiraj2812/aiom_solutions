@@ -7,20 +7,20 @@ const About = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section id="hero" className="hero-section mt-20 bg-gradient-to-r from-blue-500 to-purple-500 text-white p-12">
-        <div className="hero-content">
-          <h1 className="text-4xl font-bold mb-4">
-            Embark on a Pioneering Journey with a Seasoned Team
-          </h1>
+      
+      <section id="client-focus" className="client-focus-section p-12 mt-24 bg-gradient-to-r from-blue-500 to-purple-500 text-white">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold mb-6">
+          Embark on a Pioneering Journey with a Seasoned Team
+          </h2>
           <p className="text-lg">
-            Discover a new era of possibilities as we launch a visionary venture,
+          Discover a new era of possibilities as we launch a visionary venture,
             supported by a team of seasoned professionals. Our commitment to
             excellence is reflected in the bespoke solutions we provide,
             empowering businesses to thrive in the digital landscape.
           </p>
         </div>
       </section>
-
       {/* Two-Week Trial Section */}
       <section id="trial" className="trial-section bg-gray-100 p-12">
         <div className="container mx-auto">
