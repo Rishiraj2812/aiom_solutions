@@ -36,31 +36,27 @@ const Footer = () => {
           <h4 className="text-lg font-bold mb-2 md:px-4">Services</h4>
           <ul className='list-disc'>
                 <li>
-                Innovative Solutions
+                Amazon/ eBay/ Etsy/ Tiktok Listing service
 
                 </li>
                 <li>
-                  Two-Week Trial Service
+                ⁠Customer Service
                 </li>
 
                 <li>
-                  Client-Centric Focus
+                ⁠PPC Management
                 </li>
 
                 <li>
-                E-commerce Expertise
+                 A+ (EBC)
                 </li>
 
                 <li>
-                Performance Optimization
+                ⁠Product Image Optimization
                 </li>
 
                 <li>
-                SEO/SEM Mastery
-                </li>
-
-                <li>
-                Market Mastery
+                ⁠Account Health Management
                 </li>
           </ul>
         </div>
