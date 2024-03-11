@@ -36,7 +36,7 @@ const Footer = () => {
           <h4 className="text-lg font-bold mb-2 md:px-4">Services</h4>
           <ul className='list-disc'>
                 <li>
-                Amazon/ eBay/ Etsy/ Tiktok Listing service
+                Amazon/ eBay/ Etsy/ Tiktok/ Onbuy/ Shopify Listing service
 
                 </li>
                 <li>

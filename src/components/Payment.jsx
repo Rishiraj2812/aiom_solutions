@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { Link , useNavigate} from 'react-router-dom';
 
 const StyledContainer = styled.div`
   font-family: 'Montserrat', sans-serif;
@@ -15,6 +15,12 @@ const StyledContainer = styled.div`
 const Payment = () => {
   const [selectedPlan, setSelectedPlan] = useState(null);
 
+
+  const navigate = useNavigate();
+  const handleButtonClick = () => {
+    // Change the route to '/contact'
+    navigate('/contact');
+  };
   const handlePlanSelect = (plan) => {
     setSelectedPlan(plan);
   };
@@ -104,7 +110,7 @@ const Payment = () => {
                           <div className=" mb-6 p-6 ">
                           <ul className="list-none list-inside">
                             {/* <span>&#10003;</span> */}
-                            <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Suspension or ASIN appeal not included</strong> </li>
+                            <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Suspension or ASIN appeal included</strong> </li>
                             <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>7 to 8 Hours/Day</strong> </li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Product Listing Service</strong> </li>
                               <li className="membership-available p-1"><strong><span style={{ fontSize: '18px' }} className='m-2'>&#10004;</span>Product Description Writing</strong> </li>
@@ -141,20 +147,7 @@ const Payment = () => {
                             
                           </div>
 
-                          {/* <div className="text-center items-center justify-center">
-                            <a
-                              href="#"
-                              className="w-64 h-14 rounded-lg bg-white border-stone-200 border-b-4 hover:bg-stone-200 hover:border-stone-400 hover:cursor-pointer transition-all duration-300  items-center justify-center"
-                              type="button"
-                            >
-                              
-                               <StyledContainer className='font-extrabold text-xl mt-4'>
-                                Try Plan
-                              </StyledContainer>
-                          
-                            </a>
-                            <span className="block mt-2 text-sm">*when billed yearly</span>
-                          </div> */}
+                         
 
                     </div>
 
@@ -167,6 +160,17 @@ const Payment = () => {
           <h2 className="text-2xl font-semibold mb-4 text-center">Selected Plan: {selectedPlan}</h2>
         </div>
       )}
+      
+      <div className='w-full lg:w-4/5 flex bg-white mx-auto rounded-lg mt-16 client-focus-section p-7 text-stone-700'>
+        <StyledContainer className='flex flex-col lg:flex-row w-full'>
+          <div className='w-full lg:w-3/4 lg:mr-10'>
+            <h2 className='font-bold text-xl'>
+              We offer project-based services similar to freelancers, with project plans starting at £50-£100 per task depending on the task's complexity and quantity. Rest assured, we deliver quality work on time.
+            </h2>
+          </div>
+        </StyledContainer>
+      </div>
+
     </div>
   );
 };
