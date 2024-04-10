@@ -20,9 +20,7 @@ const Contact = () => {
 
         <ul className="list-disc list-inside">
           <li>Email: aiomsolutions.uk@hotmail.com</li>
-          <li>Phone: +91 95103 17081</li>
-          <li>Phone: +91 95105 20443</li>
-          <li>Phone: +91 96876 41388</li>
+          <li>Phone: +91 9313976827</li>
           {/* <li>Address: 123 Main Street, Cityville</li> */}
         </ul>
         <div className='border-t-2 mt-8'>
